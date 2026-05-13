@@ -1,1 +1,37 @@
+# Quartus
+db/
+incremental_db/
+output_files/
+*.qws
+*.sof
+*.pof
+*.rpt
+*.summary
+*.jdi
+*.smsg
+*.qmsg
+*.pin
+*.sld
 
+# ModelSim
+transcript
+*.wlf
+modelsim.ini
+rtl_work/
+
+# Generated databases
+*.cdb
+*.ddb
+*.hdb
+*.rdb
+*.qdb
+*.qpg
+*.qtl
+*.logdb
+*.ammdb
+*.tdb
+
+# Temp/backups
+*.bak
+*.bak*
+.DS_Store
