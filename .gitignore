@@ -42,3 +42,10 @@ modelsim.ini
 *.bak
 *.bak*
 .DS_Store
+
+# More Quartus/ModelSim generated files
+c5_pin_model_dump.txt
+msim_transcript
+*.sft
+*.vho
+*.xrf
