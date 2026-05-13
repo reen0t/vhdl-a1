@@ -1,7 +1,10 @@
 # Quartus
-db/
-incremental_db/
-output_files/
+**/db/
+**/incremental_db/
+**/output_files/
+**/rtl_work/
+
+# Quartus generated files
 *.qws
 *.sof
 *.pof
@@ -17,7 +20,6 @@ output_files/
 transcript
 *.wlf
 modelsim.ini
-rtl_work/
 
 # Generated databases
 *.cdb
@@ -30,6 +32,11 @@ rtl_work/
 *.logdb
 *.ammdb
 *.tdb
+*.nvd
+*.kpt
+*.dpi
+*.dfp
+*.sig
 
 # Temp/backups
 *.bak
